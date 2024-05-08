@@ -1,0 +1,33 @@
+.Navbar {
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar__end {
+  display: flex;
+  gap: 8px;
+}
+.Navbar__list {
+  display: flex;
+  gap: 32px;
+}
+
+.Navbar__item {
+  display: flex;
+  align-items: center;
+}
+.Navbar__link{color: #000000;}
+.Navbar__btn {
+  cursor: pointer;
+  background: #00bafc;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  color: #ffffff;
+}
